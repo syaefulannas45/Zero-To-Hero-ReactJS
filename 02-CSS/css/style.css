@@ -1,0 +1,38 @@
+/* All */
+body {
+  width: 100%;
+}
+/* Bag Container */
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow:  3px 3px 3px 3px #d6d6d6;
+  border-radius: 10px;
+  padding: 10px;
+}
+/*Bag Image & Link */
+img{
+ display: block;
+ margin: auto;
+}
+a {
+  text-decoration: none;
+}
+/*Bag Button */
+button {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #a149fa;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow:  0 0 2px 1px #d6d6d6;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
